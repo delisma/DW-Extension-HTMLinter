@@ -6,6 +6,5 @@ Clone the repo into \Adobe Dreamweaver CS4\configuration\Commands. Restart Dream
 
 ##Roadmap
 * //TODO: Progress bar with a cancel option
-* //TODO: New naming convention to go thru one folder instead of three
 * //TODO: Generate a report of changes done on file
 * //TODO: Make the change affect all open documents also
