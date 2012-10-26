@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find>
+    <qtext qname="&lt;td(( [a-z]+=&quot;(.+)&quot;)*)&gt;\s*((&lt;img(( [a-z]+=&quot;(.+)&quot;)*) /&gt;)*)\s*&lt;p&gt;(.+)&lt;/p&gt;\s*&lt;p&gt;" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="<td$1>$4<p>$9<br />" param2=""/>
+</dwquery>
