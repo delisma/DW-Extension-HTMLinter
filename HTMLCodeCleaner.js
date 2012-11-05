@@ -1,5 +1,5 @@
 function HTMLCodeCleaner() {
-	var folderURL = "file:///HTMLCodeCleaner" //On local Dreamweaver Configuration folder
+	var folderURL = "file:///C:/Program Files/Adobe/Adobe Dreamweaver CS4/configuration/Commands/HTMLCodeCleaner" //On local Dreamweaver Configuration folder
 	var fileMask = "*.dwr";
 
 	var startTime = new Date();
@@ -32,7 +32,7 @@ function HTMLCodeCleaner() {
 				var fileString = DWfile.read(folderURL + "/" + fileURL);
 				var query = fileString.substring(22);
 
-				dreamweaver.HTMLCodeCleaner('\'' + query + '\''); 
+				dreamweaver.setUpComplexFindReplace('\'' + query + '\''); 
 				dw.replaceAll();
 			}
 		}
