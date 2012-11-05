@@ -1,5 +1,5 @@
-function ComplexFindReplace() {
-	var folderURL = "file:///ComplexFindReplace" //On the testing MC Environement
+function HTMLCodeCleaner() {
+	var folderURL = "file:///HTMLCodeCleaner" //On local Dreamweaver Configuration folder
 	var fileMask = "*.dwr";
 
 	var startTime = new Date();
@@ -32,7 +32,7 @@ function ComplexFindReplace() {
 				var fileString = DWfile.read(folderURL + "/" + fileURL);
 				var query = fileString.substring(22);
 
-				dreamweaver.setUpComplexFindReplace('\'' + query + '\''); 
+				dreamweaver.HTMLCodeCleaner('\'' + query + '\''); 
 				dw.replaceAll();
 			}
 		}
