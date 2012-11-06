@@ -7,7 +7,7 @@ Clone the repo into \Adobe Dreamweaver CS4\configuration\Commands. Restart Dream
 ##Roadmap
 * //TODO: Progress bar with a cancel option
 * //TODO: Generate a report of changes done on file
-* //TODO: Make the change affect all open documents also
+* //TODO: Make option to choose between all open documents or only current document
 
 ##Caution
 Use caution if using this tool to convert your code, as this can sometimes yield unwanted results. Check your code carefully.
