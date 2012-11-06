@@ -1,5 +1,5 @@
-function ComplexFindReplace() {
-	var folderURL = "file:///ComplexFindReplace" //On the testing MC Environement
+function HTMLCodeCleaner() {
+	var folderURL = "file:///C:/Program Files/Adobe/Adobe Dreamweaver CS4/configuration/Commands/HTMLCodeCleaner" //On local Dreamweaver Configuration folder
 	var fileMask = "*.dwr";
 
 	var startTime = new Date();

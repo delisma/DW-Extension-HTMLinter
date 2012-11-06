@@ -8,3 +8,6 @@ Clone the repo into \Adobe Dreamweaver CS4\configuration\Commands. Restart Dream
 * //TODO: Progress bar with a cancel option
 * //TODO: Generate a report of changes done on file
 * //TODO: Make the change affect all open documents also
+
+##Caution
+Use caution if using this tool to convert your code, as this can sometimes yield unwanted results. Check your code carefully.
