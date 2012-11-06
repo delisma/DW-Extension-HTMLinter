@@ -1,8 +1,8 @@
-function HTMLCodeCleaner() {
-	var folderURL = "file:///C:/Program Files/Adobe/Adobe Dreamweaver CS4/configuration/Commands/HTMLCodeCleaner" //On local Dreamweaver Configuration folder
-	var fileMask = "*.dwr";
-
+function HTMLinter() {
 	var startTime = new Date();
+
+	var folderURL = dreamweaver.getConfigurationPath() + "/Commands/HTMLinterRegex" //On local Dreamweaver Configuration folder
+	var fileMask = "*.dwr";
 
 	var fileURLlist = DWfile.listFolder(folderURL + "/" + fileMask, "files");
 	queries();
