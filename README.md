@@ -1,4 +1,4 @@
-#Dreamweaver Extension: HTML Linter
+#Dreamweaver Extension: HTMLinter
 This tool is to clean up HTML files outputted by word processors namely Word and Wordperfect. It should go through a list of Regular Expressions to correct potential problems. We choose this Regular Expressions approach versus hard coded one because it is highly extensible as it's just a matter of replacing a query in the Regular Expression folder to add or remove a feature. In case you'd rather have a hard coded extension, the functionality section explains how to do it in pseudo-code.
 
 ##Installation
