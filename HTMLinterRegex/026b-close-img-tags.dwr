@@ -1,1 +1,8 @@
-<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="document">    <qtext qname="&lt;img(( [a-z]+=&quot;([^&quot;]+)&quot;)*)\s*&gt;" qraw="true"></qtext>  </find>  <replace action="replaceText" param1="<img$1 />" param2=""/></dwquery>
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="AllOpenDocuments">
+    <qtext qname="&lt;img(( [a-z]+=&quot;([^&quot;]+)&quot;)*)\s*&gt;" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="<img$1 />" param2=""/>
+</dwquery>

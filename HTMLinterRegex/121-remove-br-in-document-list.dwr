@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dwquery>
   <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
-  <find>
+  <find searchmode="AllOpenDocuments">
     <qtext qname="&lt;td rowspan=&quot;2&quot;&gt;Document(\(?)s(\)?)( ?):(.*)&lt;br /&gt;(.+)" qraw="true"></qtext>
   </find>
   <replace action="replaceText" param1="<td rowspan=&quot;2&quot;>Document$1s$2$3:$4 $5" param2=""/>

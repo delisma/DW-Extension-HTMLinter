@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dwquery>
   <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
-  <find>
+  <find searchmode="AllOpenDocuments">
     <qtext qname="&lt;p&gt;(.*)&lt;div&gt;&lt;img(( [a-z]+=&quot;(.+)&quot;)*) /&gt;&lt;/div&gt;(.*)&lt;/p&gt;" qraw="true"></qtext>
   </find>
   <replace action="replaceText" param1="<p>$1<img$2 />$5</p>" param2=""/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dwquery>
   <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
-  <find>
+  <find searchmode="AllOpenDocuments">
     <qtext qname="&lt;p class=&quot;WPBoxCaption&quot;&gt;\s*&lt;img(( [a-z]+=&quot;(.+)&quot;)*) /&gt;(.+)&lt;/p&gt;" qraw="true"></qtext>
   </find>
   <replace action="replaceText" param1="<div>\n\t<img$1 />\n\t<p>$4</p>\n</div>" param2=""/>

@@ -1,1 +1,8 @@
-<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="document">    <qtext qname="&amp;#190;" qraw="true"></qtext>  </find>  <replace action="replaceText" param1="&amp;frac34;" param2=""/></dwquery>
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="AllOpenDocuments">
+    <qtext qname="&amp;#190;" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="&amp;frac34;" param2=""/>
+</dwquery>

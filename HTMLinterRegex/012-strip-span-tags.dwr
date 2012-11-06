@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dwquery>
   <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
-  <find>
+  <find searchmode="AllOpenDocuments">
     <qtag qname="span" qconvertednls="true"></qtag>
   </find>
   <replace action="stripTag" param1="style" param2="1"/>

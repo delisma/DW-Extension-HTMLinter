@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dwquery>
   <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
-  <find>
+  <find searchmode="AllOpenDocuments">
     <qtag qname="span" qconvertednls="true"><qattribute qname="class" qcompare="=" qvalue="WPBoxCaption"></qattribute></qtag>
   </find>
   <replace action="changeTag" param1="p" param2="1"/>

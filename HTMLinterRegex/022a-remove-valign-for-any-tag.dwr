@@ -1,1 +1,8 @@
-<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="document">    <qtag qname="[any tag]" qconvertednls="true"><qattribute qname="valign" qcompare="=" qvalue="" qanyvalue="true"></qattribute></qtag>  </find>  <replace action="removeAttribute" param1="valign" param2="1"/></dwquery>
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="AllOpenDocuments">
+    <qtag qname="[any tag]" qconvertednls="true"><qattribute qname="valign" qcompare="=" qvalue="" qanyvalue="true"></qattribute></qtag>
+  </find>
+  <replace action="removeAttribute" param1="valign" param2="1"/>
+</dwquery>
