@@ -1,0 +1,1 @@
+<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="allOpenDocuments">    <qtag qname="b" qconvertednls="true"></qtag>  </find>  <replace action="changeTag" param1="strong" param2=""/></dwquery>

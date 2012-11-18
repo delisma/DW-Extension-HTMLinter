@@ -1,0 +1,1 @@
+<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="allOpenDocuments">    <qtag qname="img"><qattribute qname="v:shapes" qcompare="=" qvalue="" qanyvalue="true"></qattribute></qtag>  </find>  <replace action="removeAttribute" param1="v:shapes" param2=""/></dwquery>

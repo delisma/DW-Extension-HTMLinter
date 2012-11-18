@@ -1,0 +1,1 @@
+<?xml version="1.0"?><dwquery>  <queryparams matchcase="true" ignorewhitespace="false" useregexp="true" wholeword="false" />  <find searchmode="allOpenDocuments">    <qtext qname="&lt;\w+&gt;\s*&lt;br /&gt;\s*&lt;/\w+&gt;" qraw="true"></qtext>  </find>  <replace action="replaceText" param1="<br />" param2=""/></dwquery>
