@@ -2,7 +2,21 @@
 This tool is to clean up HTML files outputted by word processors namely Word and Wordperfect. It should go through a list of Regular Expressions to correct potential problems. We choose the Regular Expressions approach versus a hard coded one because it is highly extensible as it's just a matter of replacing a query in the Regular Expression folder to add or remove a feature. In case you'd rather have a hard coded extension, the functionality section explains how to do it in pseudo-code.
 
 ##Installation
-Clone the repo into \Adobe Dreamweaver CS4\configuration\Commands. Restart Dreamweaver or hold Ctrl while clicking on the Common dropdown in the Insert panel and select Reload Extension.
+![http://share.kyleneath.com/captures/ColorSnapper-20121020-135135.png](http://share.kyleneath.com/captures/ColorSnapper-20121020-135135.png)
+From the **downloadable source code archives** button, you can obtain a zip file that could be unzipped into `\Adobe Dreamweaver CS[your version number]\configuration\Commands` folder. Restart Dreamweaver or hold `Ctrl` while clicking on the `Common` dropdown in the `Insert` panel and select `Reload Extension` if Dreamweaver is open. 
+
+You may remove the `README.md`, `.gitignore` and `.gitattributes` file from the download afterwards.
+
+##Regex Numbering Convention
+**0000-0999** Regexes that cover unwanted attributes issues.
+
+**1000-1999** Regexes that cover unwanted elements issues.
+
+**2000-2999** Regexes that cover empty elements issues.
+
+**3000-3999** Regexes that cover structure issues.
+
+**4000-4999** Regexes that cover HTML entities issues.
 
 ##Roadmap
 * //TODO: Progress bar with a cancel option
